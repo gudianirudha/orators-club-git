@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+
+
+<!-- Navbar -->
+<a href="./index.html" class="logo">
+  <img src="images/orators-small.png" height="72" width="72" alt="logo">
+</a>
+<header>
+  <nav>
+    <div class="menu-icon">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#"></a></li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./courseofaction.html">About Us</a></li>
+        <li><a href="./team.html">Our Team</a></li>
+        <li><a href="./meetings.html">Events</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<body class="contact-us">
+  <!-- ..... Loading Page .....  -->
+  <section class="loading-page">
+    <div id="loader"><img class="load-img" src="images/orators.png" alt=""></div>
+  </section>
+
+  <form action="sendemail.php" method="post">
+    <br><br><br><br><br>
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+    </div>
+    <div class="form-group">
+      <label for="usn">USN</label>
+      <input type="text" class="form-control" id="usn" name="usn" placeholder="Enter USN" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="phone">Contact Number</label>
+      <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone number">
+    </div>
+    <div class="form-group">
+      <label for="comments" id="suggest">Comments</label>
+      <textarea class="form-control" id="comments" name="comments" rows="8" cols="80" placeholder="Comments if any..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-warning">Submit</button>
+    <br><br>
+  </form>
+
+  <iframe class="map"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.790829114914!2d74.48501071468067!3d15.814979589038389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf65c556d2f08f%3A0xcbbcbb73e1286392!2sKLS%20Gogte%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1573483519387!5m2!1sen!2sin"
+    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  <br><br>
+
+  <footer>
+    <div class="footer" id="faculty-details">
+      <h4>Prof Sheetal Bandekar</h4>
+      <h5>Faculty Coordinator</h5>
+      <h6>Contact: +91-720705425</h6>
+      <h6>E-mail: ssbandekar@git.edu</h6>
+    </div>
+
+    <div class="footer">
+      <h4>Follow Us</h4>
+      <div class="icons">
+        <a href="https://www.instagram.com/oratorsclubgit" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/oratorsclub.git" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <img src="images/orators.png" alt="Logo" height="150" width="150">
+    </div>
+
+  </footer>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
